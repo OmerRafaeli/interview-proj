@@ -11,6 +11,41 @@
     text-align: center;
 
     .pattern-4{
+        position: absolute;
+        left: 0;
         width: 150px;
+    }
+
+    & h1{
+        padding-top: 140px;
+        font-size: 3em;
+        font-family: livvic-bold;
+        & span{
+            color: #79C8C7;
+        }
+        line-height: 1em;
+    }
+
+    .review{
+        align-items: center;
+        & img{
+            position: relative;
+            top: 45px;
+            width: 56px;
+            height: 67px;
+        }
+
+        & p{
+            z-index: 1;
+            font-size: 0.9375em;
+            font-family: livvic;
+        }
+
+        .user-img{
+            width: 62px;
+            height: 62px;
+            border-radius: 50px;
+            border: 2px solid #C4FFFE;
+        }
     }
 }

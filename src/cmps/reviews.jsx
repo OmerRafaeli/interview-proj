@@ -18,7 +18,7 @@ export function Reviews () {
                 months faster than planned.”
                 </p>
                 <p>Kady Baker</p>
-                <img src={Kady} alt="" />
+                <img className='user-img' src={Kady} alt="" />
             </section>
 
         </section>
