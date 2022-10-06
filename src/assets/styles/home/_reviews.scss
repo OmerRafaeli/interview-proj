@@ -1,4 +1,4 @@
-.reviews-container{
+.reviews-container {
     position: relative;
     left: 0%;
     right: 0%;
@@ -10,42 +10,49 @@
     height: 745px;
     text-align: center;
 
-    .pattern-4{
+    .pattern-4 {
         position: absolute;
         left: 0;
         width: 150px;
     }
 
-    & h1{
+    & h1 {
         padding-top: 140px;
         font-size: 3em;
         font-family: livvic-bold;
-        & span{
+
+        & span {
             color: #79C8C7;
         }
+
         line-height: 1em;
     }
 
-    .review{
-        align-items: center;
-        & img{
-            position: relative;
-            top: 45px;
-            width: 56px;
-            height: 67px;
-        }
+    .reviews-main{
+        justify-content: center;
+        gap: 30px;
+        .review {
+            align-items: center;
 
-        & p{
-            z-index: 1;
-            font-size: 0.9375em;
-            font-family: livvic;
-        }
+            & img {
+                position: relative;
+                top: 45px;
+                width: 56px;
+                height: 67px;
+            }
 
-        .user-img{
-            width: 62px;
-            height: 62px;
-            border-radius: 50px;
-            border: 2px solid #C4FFFE;
+            & p {
+                z-index: 1;
+                font-size: 0.9375em;
+                font-family: livvic;
+            }
+
+            .user-img {
+                width: 62px;
+                height: 62px;
+                border-radius: 50px;
+                border: 2px solid #C4FFFE;
+            }
         }
     }
 }
