@@ -1,0 +1,15 @@
+//SETUP
+@import 'setup/typography';
+
+//BASE
+@import 'base/basic';
+@import 'base/helpers';
+
+//VIEWS
+@import './home/Home.scss';
+
+//CMPS
+@import './home/header.scss';
+@import './home/main-content.scss';
+@import './home/reviews.scss';
+@import './home/footer.scss';

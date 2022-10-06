@@ -1,0 +1,94 @@
+.header-container {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 700px;
+
+    background: #014E56;
+    padding-top: 73px;
+
+    .header-links {
+        max-width: 1110px;
+        margin-left: 165px;
+        margin-right: 165px;
+        text-align: center;
+        font-size: 1.125em;
+
+        & .logo {
+            width: 159.95px;
+            height: 40px;
+            margin-inline-end: 80px;
+        }
+
+        & .header-link {
+            margin-inline-end: 40px;
+        }
+
+        & span {
+            flex: 1;
+        }
+
+        & .contact-btn {
+            justify-self: end;
+            border: 2px solid #ffffff;
+            padding: 5px 32px;
+            border-radius: 25px;
+        }
+    }
+
+    .header-content {
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1110px;
+        margin-left: 165px;
+        margin-right: 165px;
+
+        & h1 {
+            font-size: 6.25em;
+            line-height: 1em;
+            font-family: livvic-bold;
+
+            & span {
+                color: #F67E7E;
+            }
+        }
+
+        .header-rectangle{
+            position: absolute;
+            width: 50px;
+            height: 4px;
+            top: 37.5%;
+            right: 33.5%;
+            background-color: #79C8C7;
+        }
+
+        & p {
+            font-weight: bold;
+            margin: 0;
+            padding-top: 80px;
+        }
+    }
+
+    .header-img {
+        .pattern-home-header-left {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            left: -100px;
+            top: 50%;
+            transform: translateY(-55%);
+        }
+        
+        .pattern-home-header-bottom {
+            position: absolute;
+            width: 300px;
+            height: 75px;
+            bottom: 0;
+            right: 25%;
+            transform: translateX(75%);
+        }
+
+    }
+}

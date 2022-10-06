@@ -1,0 +1,46 @@
+.main-content-container {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #012F34;
+    // width: 100vw;
+
+    max-width: 1440px;
+    height: 684px;
+    .main-content {
+        justify-content: center;
+        align-items: center;
+        margin-left: 165px;
+        margin-right: 165px;
+
+        .main-rectangle {
+            position: relative;
+            width: 50px;
+            height: 4px;
+            top: 27.5%;
+            right: 33.5%;
+            background-color: #79C8C7;
+        }
+
+        .main-headline{
+            font-size: 3em;
+            line-height: 1em;
+            margin-inline-end: 150px;
+        }
+
+        .advantages-container{
+            margin-top: 200px;
+        }
+
+    }
+
+    .pattern-main-img {
+        position: absolute;
+        width: 200px;
+        height: 225px;
+        bottom: 0;
+        right: -100px;
+    }
+}
